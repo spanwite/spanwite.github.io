@@ -1,0 +1,68 @@
+body {
+  position: relative;
+}
+
+.bg {
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg__line-1 {
+  opacity: 0.5;
+  z-index: 15;
+}
+
+.bg__line-2 {
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.bg__line-3 {
+  z-index: 5;
+}
+
+.bg__wave_1,
+.bg__wave_2,
+.bg__wave_3 {
+  background-position: 0 bottom;
+  background-repeat: repeat no-repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transform-origin: center bottom;
+  width: 200%;
+}
+
+.bg__wave_1 {
+  animation: wave-slide 6s linear infinite;
+  background-size: 50% 80px;
+  -webkit-background-size: 50% 80px;
+}
+
+.bg__wave_2 {
+  animation: wave-slide 10s linear infinite;
+  background-size: 50% 100px;
+  -webkit-background-size: 50% 100px;
+}
+
+.bg__wave_3 {
+  animation: wave-slide 32s linear infinite;
+  background-size: 50% 80px;
+  -webkit-background-size: 50% 80px;
+}
+
+@keyframes wave-slide {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.5);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
