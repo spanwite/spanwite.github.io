@@ -40,7 +40,7 @@ body {
 	.text {
 		color: white;
 		font-size: 10px;
-		letter-spacing: 5px;
+		letter-spacing: 0px;
 		font-family: "Roboto", sans-serif;
 	}
 	#seconds,
@@ -62,7 +62,8 @@ body {
 }
 
 .clock__block_1,
-.clock__block_2 {
+.clock__block_2,
+.textNewYear {
 	text-align: center;
 }
 
