@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html,
+body {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 0;
+	flex-shrink: 1;
+	height: 100%;
+	justify-content: center;
+	overflow: hidden;
+	width: 100%;
+}
+
+@media screen and (min-width: 1240px) {
+	.text {
+		color: white;
+		font-size: 30px;
+		letter-spacing: 5px;
+		font-family: "Roboto", sans-serif;
+	}
+	#seconds,
+	#minutes,
+	#hours,
+	#days {
+		color: rgb(90, 153, 255);
+		font-size: 90px;
+		font-family: "Oxygen", sans-serif;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.text {
+		color: white;
+		font-size: 20px;
+		letter-spacing: 5px;
+		font-family: "Roboto", sans-serif;
+	}
+	#seconds,
+	#minutes,
+	#hours,
+	#days {
+		color: rgb(90, 153, 255);
+		font-size: 70px;
+		font-family: "Oxygen", sans-serif;
+	}
+}
+
+#seconds,
+#minutes,
+#hours,
+#days,
+.text {
+	animation: opasityChange 5s 1;
+}
+
+@keyframes opasityChange {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
