@@ -39,7 +39,7 @@ body {
 @media screen and (max-width: 768px) {
 	.text {
 		color: white;
-		font-size: 10px;
+		font-size: 20px;
 		letter-spacing: 0px;
 		font-family: "Roboto", sans-serif;
 	}
@@ -48,7 +48,7 @@ body {
 	#hours,
 	#days {
 		color: rgb(90, 153, 255);
-		font-size: 50px;
+		font-size: 70px;
 		font-family: "Oxygen", sans-serif;
 	}
 }
