@@ -80,7 +80,7 @@ function renderTime() {
 		$("#day").text("Дней");
 	}
 
-	if (timeTo <= 0) {
+	if (timeTo > 25920000000) {
 		$(".timerText").remove();
 		$(".newYearIsStarted").css({ display: "inline" });
 	}
