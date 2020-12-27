@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html,
+body {
+	align-items: center;
+	background-color: rgb(2, 2, 20);
+	display: flex;
+	flex-grow: 0;
+	flex-shrink: 1;
+	height: 100%;
+	justify-content: center;
+	overflow: hidden;
+	width: 100%;
+}
+
+@media (min-width: 1240px) {
+	.text {
+		color: rgb(255, 255, 255);
+		font-family: "roboto", sans-serif;
+		font-size: 30px;
+		letter-spacing: 5px;
+	}
+
+	#seconds,
+	#minutes,
+	#hours,
+	#days {
+		color: rgb(90, 153, 255);
+		font-family: "Oxygen", sans-serif;
+		font-size: 90px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.text {
+		color: white;
+		font-family: "Roboto", sans-serif;
+		font-size: 20px;
+		letter-spacing: 0px;
+	}
+
+	#seconds,
+	#minutes,
+	#hours,
+	#days {
+		color: rgb(90, 153, 255);
+		font-size: 70px;
+		font-family: "Oxygen", sans-serif;
+	}
+}
+
+.newYearIsStarted {
+	animation: opasityChange 6.5s ease-in-out 1;
+	color: white;
+	display: none;
+	font-family: "roboto", sans-serif;
+	font-size: 70px;
+	text-align: center;
+}
+
+.clock__block_1,
+.clock__block_2,
+.textNewYear {
+	text-align: center;
+}
+
+.timerText {
+	animation: opasityChange 6.5s ease-in-out 1;
+}
+
+#seconds,
+#minutes,
+#hours,
+#days {
+	-webkit-animation: hue 10s infinite linear;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(-90deg, #dcff42, #ff28e2);
+	color: #f35626;
+}
+
+#id1,
+#id2,
+#id4,
+#id6 {
+	-webkit-animation: hue 10s infinite linear;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(-90deg, #dcff42, #ff28e2);
+	color: #f35626;
+	font-size: 150px;
+}
+
+@keyframes opasityChange {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes hue {
+	from {
+		-webkit-filter: hue-rotate(0deg);
+	}
+	to {
+		-webkit-filter: hue-rotate(-360deg);
+	}
+}
