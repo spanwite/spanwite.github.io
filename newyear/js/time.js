@@ -1,3 +1,15 @@
+document.onkeydown = function (e) {
+	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+	}
+	return false;
+};
+
+$(document).ready(function () {
+	$(document).bind("contextmenu", function (e) {
+		return false;
+	});
+});
+
 function renderTime() {
 	const date = new Date();
 	const now = new Date();
