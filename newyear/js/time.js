@@ -19,10 +19,10 @@ function renderTime() {
 	const christmas = new Date(date.getFullYear() + 1, 0, 1, 0, 0, 0, 0);
 	const timeTo = christmas - now;
 
-	let days = Math.round(timeTo / (1000 * 3600 * 24));
-	let hours = Math.round((timeTo % (1000 * 3600 * 24)) / (1000 * 60 * 60));
-	let minutes = Math.round((timeTo % (1000 * 3600)) / (1000 * 60));
-	let seconds = Math.round((timeTo % (1000 * 60)) / 1000);
+	let days = Math.floor(timeTo / (1000 * 3600 * 24));
+	let hours = Math.floor((timeTo % (1000 * 3600 * 24)) / (1000 * 60 * 60));
+	let minutes = Math.floor((timeTo % (1000 * 3600)) / (1000 * 60));
+	let seconds = Math.floor((timeTo % (1000 * 60)) / 1000);
 
 	if (seconds > 10) {
 		var slice = seconds.toString().slice(1);
