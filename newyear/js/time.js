@@ -1,5 +1,7 @@
 document.onkeydown = function (e) {
-	if (e.ctrlKey && (e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+	if ((e.ctrlKey || e.shiftKey) && (e.keyCode === 73 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
+		return false;
+	} else if (e.keyCode === 123) {
 		return false;
 	}
 	return true;
