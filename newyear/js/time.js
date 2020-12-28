@@ -20,7 +20,7 @@ function renderTime() {
 	let hours = Math.floor((timeTo % (1000 * 3600 * 24)) / (1000 * 60 * 60));
 	let minutes = Math.floor((timeTo % (1000 * 3600)) / (1000 * 60));
 	let seconds = Math.floor((timeTo % (1000 * 60)) / 1000);
-	setTimeout("renderTime()", 1000);
+	setTimeout("renderTime()", 700);
 
 	if (seconds > 10) {
 		var slice = seconds.toString().slice(1);
