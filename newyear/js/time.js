@@ -56,7 +56,7 @@ function renderTime() {
 		} else {
 			$("#minut").text("Минут");
 		}
-	} else if (seconds < 10) {
+	} else if (minutes < 10) {
 		if (minutes == 4 || minutes == 3 || minutes == 2) {
 			$("#minut").text("Минуты");
 		} else if (minutes == 1) {
