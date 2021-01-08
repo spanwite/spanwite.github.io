@@ -27,7 +27,7 @@ label {
 	letter-spacing: 15px;
 	text-shadow: 50px 50px 50px rgba(82, 70, 255, 1);
 	color: white;
-	transition: text-shadow 0.3s ease-out, font-size 0.3s ease-out;
+	transition: text-shadow 0.3s ease-out, font-size 0.3s ease-out, color 0.3s ease-out;
 }
 
 input[type="range"] {
