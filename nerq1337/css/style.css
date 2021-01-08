@@ -53,19 +53,6 @@ body {
 	z-index: 1;
 }
 
-.newYear__text {
-	color: rgb(255, 255, 255);
-	font-size: 15px;
-	font-weight: 300;
-	letter-spacing: 3px;
-	text-decoration: none;
-	transition: color 0.35s ease-out;
-}
-
-.newYear__text:hover {
-	color: #8d95ff;
-}
-
 .bg {
 	z-index: 3;
 }
