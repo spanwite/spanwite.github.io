@@ -3,7 +3,6 @@
 html,
 body {
 	align-items: center;
-	display: flex;
 	flex-direction: column;
 	flex-grow: 0;
 	flex-shrink: 1;
@@ -65,8 +64,6 @@ textarea {
 .container {
 	position: relative;
 	top: 150px;
-	flex-grow: 0;
-	flex-shrink: 1;
 }
 
 span {
