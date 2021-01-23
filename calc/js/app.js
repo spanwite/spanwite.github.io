@@ -14,7 +14,7 @@ $("button:eq(1)").click(() => {
 
 $("button:eq(2)").click(() => {
 	var lastChar = question.toString().slice(-1);
-	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%") {
+	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%" && lastChar !== ".") {
 		result.val(result.val() + "÷");
 		question += "/";
 	}
@@ -37,7 +37,7 @@ $("button:eq(5)").click(() => {
 
 $("button:eq(6)").click(() => {
 	var lastChar = question.toString().slice(-1);
-	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%") {
+	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%" && lastChar !== ".") {
 		result.val(result.val() + "×");
 		question += "*";
 	}
@@ -60,7 +60,7 @@ $("button:eq(9)").click(() => {
 
 $("button:eq(10)").click(() => {
 	var lastChar = question.toString().slice(-1);
-	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%") {
+	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%" && lastChar !== ".") {
 		result.val(result.val() + "-");
 		question += "-";
 	}
@@ -83,7 +83,7 @@ $("button:eq(13)").click(() => {
 
 $("button:eq(14)").click(() => {
 	var lastChar = question.toString().slice(-1);
-	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%") {
+	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%" && lastChar !== ".") {
 		result.val(result.val() + "+");
 		question += "+";
 	}
@@ -96,7 +96,7 @@ $("button:eq(15)").click(() => {
 
 $("button:eq(16)").click(() => {
 	var lastChar = question.toString().slice(-1);
-	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%") {
+	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%" && lastChar !== ".") {
 		result.val(result.val() + ".");
 		question += ".";
 	}
