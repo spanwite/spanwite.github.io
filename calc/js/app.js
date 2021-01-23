@@ -125,7 +125,8 @@ $("button:eq(20)").click(() => {
 });
 
 $("button:eq(21)").click(() => {
-	if (question.toString().slice(-1) !== "-") {
+	var lastChar = question.toString().slice(-1);
+	if (lastChar !== "-" && lastChar !== "*" && lastChar !== "+" && lastChar !== "/" && lastChar !== "%" && lastChar !== ".") {
 		result.val(result.val() + "%");
 		question += "%";
 	}
