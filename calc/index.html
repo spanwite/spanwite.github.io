@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/line.css" />
+		<title>Calculator</title>
+	</head>
+	<body>
+		<section>
+			<div class="seperator-wrapper">
+				<div class="seperator gradient"></div>
+				<div id="result"></div>
+			</div>
+
+			<div class="buttons">
+				<div class="buttons_main">
+					<button data-action="c" id="C">C</button>
+					<button data-action="ce">CE</button>
+					<button data-action="÷">÷</button> <br />
+					<button data-action="7">7</button>
+					<button data-action="8">8</button>
+					<button data-action="9">9</button>
+					<button data-action="×">×</button> <br />
+					<button data-action="4">4</button>
+					<button data-action="5">5</button>
+					<button data-action="6">6</button>
+					<button data-action="-">-</button> <br />
+					<button data-action="1">1</button>
+					<button data-action="2">2</button>
+					<button data-action="3">3</button>
+					<button data-action="+">+</button> <br />
+					<button data-action="0">0</button>
+					<button data-action=".">.</button>
+					<button data-action="=">=</button>
+				</div>
+
+				<div class="buttons_other">
+					<button data-action="toggle" class="_toggle">...</button>
+					<button data-action="(">(</button>
+					<button data-action=")">)</button>
+					<button data-action="%">%</button>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div>Made By <a href="https://github.com/Nerq1337" target="__blank">Nerq1337</a></div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
