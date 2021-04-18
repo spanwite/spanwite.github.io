@@ -50,6 +50,7 @@ $("#generate").click(() => {
 
 $("#copy").click(() => {
 	$("#copy div")
+		.stop(true, true)
 		.fadeOut(300, () => {
 			$("#copy div").text("Copied!");
 		})
