@@ -2,7 +2,7 @@
 
 >[Nerq1337](https://nerq1337.github.io/nerq1337)
 
->[Time to New Year](https://nerq1337.github.io/newyear)
+>[Time to New Year](https://nerq1337.github.io/newYearTimer)
 
 >[Create Shadow](https://nerq1337.github.io/createShadow)
 
