@@ -1,8 +1,8 @@
-# Nerq1337
+# Page's:
 
 >[Nerq1337](https://nerq1337.github.io/nerq1337)
 
->[Time to New Year](https://nerq1337.github.io/newYearTimer)
+>[New Year Timer](https://nerq1337.github.io/newYearTimer)
 
 >[Create Shadow](https://nerq1337.github.io/createShadow)
 
