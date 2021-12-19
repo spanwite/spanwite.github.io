@@ -1,6 +1,6 @@
-# My works
+# My Work's
 
-## Pages's:
+## Page's:
 
 * [Nerq1337](https://nerq1337.github.io/nerq1337)
 
