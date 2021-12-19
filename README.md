@@ -2,7 +2,7 @@
 
 ## Page's:
 
-* [Nerq1337](https://nerq1337.github.io/nerq1337)
+* [Nerq1337](https://nerq1337.github.io/nerq1337){:target="_blank"}
 
 * [New Year Timer](https://nerq1337.github.io/newYearTimer)
 
